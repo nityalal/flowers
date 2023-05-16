@@ -1,0 +1,242 @@
+* {
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 18px;
+    font-family: "leo", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+/* ===== NAV INFO HERE ---- */
+
+nav {
+    font-size: 20px;
+    font-family: "leo", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    padding-top:10px;
+    justify-content: left;
+    align-content: left;
+    
+}
+
+/* ===== HEADER INFO HERE ---- */
+
+.banner {
+    display:flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 1.5rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+    opacity: 0.9;
+    background-color: rgb(232, 222, 206);
+    z-index: 99;
+}
+
+
+h1.stick {
+    position: sticky;
+    top: 200px;
+    color: rgb(155, 106, 114);
+    justify-content: left;
+    align-content: left;
+}
+
+h2 {
+    color: rgb(255, 255, 255);
+    font-family: "compendium", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 300px;
+}
+
+
+
+header.rose {
+
+    color:rgb(0, 0, 0);
+    border: solid 1px pink;
+    width: 100%;
+    height: 100vh;
+    opacity: 0.8;
+    background: url(../images/roses4.jpg) no-repeat left center ;
+    scale: 100% ;
+    background-size: 170%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+
+header.lotus {
+
+    color:rgb(0, 0, 0);
+    border: solid 1px pink;
+    width: 100%;
+    height: 100vh;
+    opacity: 0.8;
+    background: url(../images/lotus.jpg) no-repeat left center ;
+    scale: 100% ;
+    background-size: 170%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+
+header.daisy {
+
+    color:rgb(0, 0, 0);
+    border: solid 1px pink;
+    width: 100%;
+    height: 100vh;
+    opacity: 0.8;
+    background: url(../images/daisy.jpg) no-repeat left center ;
+    scale: 100% ;
+    background-size: 170%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+header.lily {
+
+    color:rgb(0, 0, 0);
+    border: solid 1px pink;
+    width: 100%;
+    height: 100vh;
+    opacity: 0.8;
+    background: url(../images/lilies2.jpg) no-repeat left center ;
+    scale: 100% ;
+    background-size: 170%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+
+hgroup {
+    text-align:center;
+}
+
+section {
+    display: flex;
+}
+
+section.gallery {
+    justify-content: center;
+    padding: 1.5rem;
+
+}
+
+button {
+    border-radius: 100%;
+    border-color: pink;
+    width: 2.5rem;
+    color: rgba(0, 0, 0, 1);
+    font-size: 10px;
+    font-family: "leo", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+
+}
+.gallery div {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(192, 214, 221);
+    border-radius: 5%;
+    margin: 1rem;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rose-rel {
+    background: url(../images/roses.jpg) no-repeat left center ;
+}
+.rose-rel2 {
+    background: url(../images/roses2.jpg) no-repeat left center ;
+}
+
+.rose-rel3 {
+    background: url(../images/roses3.jpg) no-repeat left center ;
+}
+
+.rose-rel4 {
+    background: url(../images/roses4.jpg)  right center ;
+}
+
+.lotus-rel {
+    background: url(../images/lotus.jpg) no-repeat left center ;
+}
+.lotus-rel2 {
+    background: url(../images/lotus2.jpg) no-repeat left center ;
+}
+
+.lotus-rel3 {
+    background: url(../images/lotus3.jpg) no-repeat left center ;
+}
+
+.lotus-rel4 {
+    background: url(../images/lotus4.jpg)  right center ;
+}
+
+.daisy-rel {
+    background: url(../images/daisy.jpg) no-repeat center center ;
+}
+.daisy-rel2 {
+    background: url(../images/daisy2.jpg) no-repeat center center ;
+}
+
+.daisy-rel3 {
+    background: url(../images/daisy3.jpg) no-repeat left center ;
+}
+
+.daisy-rel4 {
+    background: url(../images/daisy4.jpg)  bottom center ;
+}
+
+.lily-rel {
+    background: url(../images/lily.jpg) no-repeat center center ;
+}
+.lily-rel2 {
+    background: url(../images/lilies2.jpg) no-repeat center center ;
+}
+
+.lily-rel3 {
+    background: url(../images/lily3.jpg) no-repeat center center ;
+}
+
+.lily-rel4 {
+    background: url(../images/lily4.jpg)  center center ;
+}
+
+
+article {
+    background: rgb(225, 195, 210);
+    padding: 1.5rem;
+    width: 75%;
+}
+
+aside {
+    background-color:rgb(209, 230, 214);
+    padding: 1.5rem;
+    width: 25%;
+}
+
+
+footer {
+    text-align: center;
+    background-color: rgb(232, 222, 206);
+    color:rgb(179, 165, 172)
+}
